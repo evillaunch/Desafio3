@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const contenedor = require("./Contenedor").Contenedor
-const conten = new contenedor("articulos.json")
+const conten = new contenedor("productos.json")
 
 
 app.get('/',(req,res) => {
